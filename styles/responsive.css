@@ -1,0 +1,53 @@
+@media screen and (max-width: 1224px) {
+  header {
+    padding: 0px 24px;
+  }
+  .enjoyTV {
+    text-align: center;
+  }
+  .smartTV {
+    text-align: center;
+    margin-right: 0px;
+  }
+  .Enjoy{
+    justify-content: center;
+    flex-wrap:wrap ;
+  }
+}
+@media screen and (max-width: 892px) {
+  .unlimited-movies,
+  .enjoyTV {
+    font-size: 3.2rem;
+  }
+  .watch,
+  .smartTV {
+    font-size: 1.8rem;
+  }
+
+}
+@media screen and (max-width: 739px) {
+    .strImage{
+        width: 500px;
+        height: 350px;
+    }
+    .videos video{
+        width: 360px;
+        height: 328px;
+    }
+    .videos .strangerThingsVideo{
+        width: 300px;
+        height: 250px;
+    }
+    .Enjoy{
+        justify-content: center;
+    }
+    .email{
+        width: 100%;
+    }
+    details{
+      font-size: 2rem
+    }
+    summary{
+      font-size: 2rem;
+    }
+}

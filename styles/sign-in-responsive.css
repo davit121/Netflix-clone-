@@ -1,0 +1,24 @@
+@media screen and (max-width: 940px){
+    .SignFooter{
+        padding: 20px 15px;
+    }
+    nav{
+        column-gap: 60px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 720px) {
+    .main{
+        background-color: black;
+        
+    }
+    .sign-in-container{
+        padding: 0px 15px;
+        width: 100%;
+    }
+    .netflixLogo{
+      top:0;
+      left: 15px;
+    }
+  }
